@@ -16,6 +16,7 @@
 		98CFDF1B217BEF1100DEC8DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CFDF19217BEF1100DEC8DF /* LaunchScreen.storyboard */; };
 		98CFDF26217BEF1200DEC8DF /* TD_assignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CFDF25217BEF1200DEC8DF /* TD_assignmentTests.swift */; };
 		98CFDF31217BEF1200DEC8DF /* TD_assignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CFDF30217BEF1200DEC8DF /* TD_assignmentUITests.swift */; };
+		98CFDF40217D330A00DEC8DF /* TopicsListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CFDF3F217D330A00DEC8DF /* TopicsListData.swift */; };
 		B6B796A032A793F2603AB3B5 /* Pods_TD_assignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A1D2D23ABD38B06A3CDBDD /* Pods_TD_assignmentTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		98CFDF2C217BEF1200DEC8DF /* TD assignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TD assignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98CFDF30217BEF1200DEC8DF /* TD_assignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TD_assignmentUITests.swift; sourceTree = "<group>"; };
 		98CFDF32217BEF1200DEC8DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98CFDF3F217D330A00DEC8DF /* TopicsListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsListData.swift; sourceTree = "<group>"; };
 		AF1C892A38B0ACFB1C3885D1 /* Pods-TD assignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TD assignmentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TD assignmentUITests/Pods-TD assignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F2A1D2D23ABD38B06A3CDBDD /* Pods_TD_assignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TD_assignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F1D1E97E17085E08511B1B /* Pods_TD_assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TD_assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,12 +139,13 @@
 		98CFDF0F217BEF0C00DEC8DF /* TD assignment */ = {
 			isa = PBXGroup;
 			children = (
-				98CFDF10217BEF0C00DEC8DF /* AppDelegate.swift */,
-				98CFDF12217BEF0C00DEC8DF /* TopicsListVC.swift */,
-				98CFDF14217BEF0C00DEC8DF /* Main.storyboard */,
 				98CFDF17217BEF1100DEC8DF /* Assets.xcassets */,
 				98CFDF19217BEF1100DEC8DF /* LaunchScreen.storyboard */,
 				98CFDF1C217BEF1100DEC8DF /* Info.plist */,
+				98CFDF10217BEF0C00DEC8DF /* AppDelegate.swift */,
+				98CFDF12217BEF0C00DEC8DF /* TopicsListVC.swift */,
+				98CFDF14217BEF0C00DEC8DF /* Main.storyboard */,
+				98CFDF3F217D330A00DEC8DF /* TopicsListData.swift */,
 			);
 			path = "TD assignment";
 			sourceTree = "<group>";
@@ -301,15 +304,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TD assignmentTests-checkManifestLockResult.txt",
 			);
@@ -323,15 +322,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TD assignmentUITests-checkManifestLockResult.txt",
 			);
@@ -345,16 +340,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TD assignment/Pods-TD assignment-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
@@ -369,15 +360,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TD assignment-checkManifestLockResult.txt",
 			);
@@ -394,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98CFDF13217BEF0C00DEC8DF /* TopicsListVC.swift in Sources */,
+				98CFDF40217D330A00DEC8DF /* TopicsListData.swift in Sources */,
 				98CFDF11217BEF0C00DEC8DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
